@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZRBT9DCW3F"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-ZRBT9DCW3F');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+  <!-- <script src="http://popcornjs.org/code/dist/popcorn-complete.js"></script> -->
+</head>
+<body>
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title" style="font-size:28px;">KITchen: A Real-World Benchmark and Dataset for 6D Object Pose Estimation in Kitchen Environments</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://research.nvidia.com/person/bowen-wen">Abdelrahman Younes</a></sup>,
+              <a href="https://research.nvidia.com/person/wei-yang">Tamim Asfour</a></sup>
+            </span>
+          </div>
+          <br>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"></sup>KIT</span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href="https:KITchen.github.io" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <!-- Video Link. -->
+              <!-- <span class="link-block">
+                <a href="" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                  </span>
+                  <span>Video</span>
+                </a>
+              </span> -->
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https:KITchen.github.io" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>Despite the recent progress on 6D object pose
+estimation methods for robotic grasping, a substantial perfor-
+mance gap persists between the capabilities of these methods
+on existing datasets and their efficacy in real-world mobile
+manipulation tasks, particularly when robots rely solely on their
+monocular egocentric field of view (FOV). Existing real-world
+datasets primarily focus on table-top grasping scenarios, where
+a robotic arm is placed in a fixed position and the objects are
+centralized within the FOV of fixed external camera(s). Assess-
+ing performance on such datasets may not accurately reflect
+the challenges encountered in everyday mobile manipulation
+tasks within kitchen environments such as retrieving objects
+from higher shelves, sinks, dishwashers, ovens, refrigerators, or
+microwaves. To address this gap, we present Kitchen, a novel
+benchmark designed specifically for estimating the 6D poses of
+objects located in diverse positions within kitchen settings. For
+this purpose, we recorded a comprehensive dataset comprising
+around 205k real-world RGBD images for 111 kitchen objects
+captured in two distinct kitchens, utilizing one humanoid robot
+with its egocentric perspectives. Subsequently, we developed a
+semi-automated annotation pipeline, to streamline the labeling
+process of such datasets, resulting in the generation of 2D object
+labels, 2D object segmentation masks, and 6D object poses with
+minimized human effort. The benchmark, the dataset, and the
+annotation pipeline will be publicly available upon acceptance.
+          </p>
+  </div>
+</section>
+
+
+<style>
+model-viewer {
+  width: 400px;
+  height: 300px;
+}
+</style>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            Website taken from
+              <a href="https://github.com/nerfies/nerfies.github.io">here</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
