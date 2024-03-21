@@ -156,3 +156,8 @@ body {
 #interpolation-image-wrapper img {
   border-radius: 5px;
 }
+.image-no-space {
+display: block; 
+  margin: 0; /* Remove margin */
+  padding: 0; /* Remove padding */
+}
